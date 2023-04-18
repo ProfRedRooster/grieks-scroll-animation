@@ -4,9 +4,9 @@ const html = document.documentElement
 const canvas = document.getElementById('hero-lightpass')
 const context = canvas.getContext('2d')
 
-const frameCount = 180
+const frameCount = 233
 const currentFrame = (index) =>
-   `https://raw.githubusercontent.com/ProfRedRooster/grieks-scroll-animation/main/pictures/%20${index
+   `https://github.com/ProfRedRooster/grieks-scroll-animation/raw/main/pictures/%20${index
 
     .toString()
     .padStart(4, '0')}.jpg`
