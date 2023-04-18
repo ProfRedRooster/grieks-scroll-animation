@@ -6,7 +6,8 @@ const context = canvas.getContext('2d')
 
 const frameCount = 180
 const currentFrame = (index) =>
-  `https://grieks.rohandg.nl/pictures/${index
+   `https://raw.githubusercontent.com/ProfRedRooster/grieks-scroll-animation/main/pictures/%20${index
+
     .toString()
     .padStart(4, '0')}.jpg`
 
